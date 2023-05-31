@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    /* background-color: salmon;  */
+    margin: 100px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.all {
+    text-align: center;
+}
+
+.container .all .content .btn {
+    width: 70px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border: 2px solid black;
+    background-color: transparent;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.container .all .content .btn:hover {
+    background-color: rgb(91, 187, 247);
+    border: none;
+    outline: none;
+}
+p {
+    margin: 20px
+}
+
+.container .all .content {
+    position: relative;
+}
+.btn-2 {
+    position: absolute;
+    display: block;
+    left: 120px;
+    top: 264px;
+}
+.btn-1 {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 264px;
+}
+/* .container .all .content button {
+    outline: none;
+    border: transparent;
+    style: 
+} */
